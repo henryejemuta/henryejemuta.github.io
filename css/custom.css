@@ -2,6 +2,10 @@
     border-radius: 10rem !important;
 }
 
+.btn.btn-primary:hover{
+    box-shadow: 1px 1px 2px #cfaa2c, 0 0 25px #fed136, 0 0 5px #FFFFFF;
+}
+
 .intro-lead-in{
     margin-bottom: 2px !important;
 }
@@ -29,6 +33,9 @@
     max-width: 100%;
 }
 
+.container.fixed-background span {
+    color: #FFF;
+}
 .container.fixed-background a{
     text-decoration: none;
     color: #FFF;
@@ -54,6 +61,6 @@
     color: #FFF;
 }
 
-#portfolio{
-    padding-bottom: 15px;
+.no-bottom-pad{
+    padding-bottom: 15px !important;
 }
