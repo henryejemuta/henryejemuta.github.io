@@ -22,6 +22,5 @@ $email_body = "You have received a new message from your github profile contact 
 $headers = "From: noreply@henryejemuta.github.io\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
-   echo "Your form has been submitted successfully, I'll get back to you ASAP!";
 return true;         
 ?>
